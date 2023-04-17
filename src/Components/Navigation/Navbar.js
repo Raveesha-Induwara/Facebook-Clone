@@ -41,7 +41,7 @@ export default function Navbar() {
             </div>
 
             <div className='profilePic'>
-                <img src='/Images/profile.jpg'alt='profile picture'/>
+                <img src='./Images/profile.jpg'alt='profile picture'/>
             </div>
         </div>
     </div>
