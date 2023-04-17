@@ -1,0 +1,108 @@
+.leftPaneBox{
+    flex: 2;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(149, 149, 149);
+}
+
+::-webkit-scrollbar-track{
+    background-color: lightgray;
+}
+
+.leftPaneContainer{
+    padding: 20px;
+}
+
+.leftPaneMenuItems{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.profileImg{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.leftPaneMenuIcon{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.leftPaneMenuText{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.group{color: lightseagreen;}
+.flag{color: rgb(255, 106, 0);}
+.bookmark{color: rgb(126, 13, 126)}
+.recent{color: #1776bb;}
+.groups{
+    color: white;
+    background-color: #2f86b8;
+    border-radius: 50%;
+}
+.marketPlace{color: rgb(0, 238, 255);}
+.video{color: #178fbb;}
+.hisroty{color: rgb(0, 119, 255);}
+.event{color: rgb(169, 2, 2);}
+.star{color: rgb(242, 184, 36);}
+
+/* ------------------------------- */ 
+.pagesHeading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 15px;
+    color: rgb(40, 40, 40);
+}
+
+.pageList{
+    padding: 0;
+    margin: 20px 0;
+}
+
+.pageListItem{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+    padding: 5px;
+    align-items: center;
+    -webkit-box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.1); 
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.1);
+}
+
+.pagePic{
+    width: 40px;
+    height: 40px;
+    border: 0.5px solid lightgray;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.pageName{
+    width: 90%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.dotIcon{
+    cursor: pointer;
+    text-align: right;
+    color: rgb(80, 80, 80);
+}

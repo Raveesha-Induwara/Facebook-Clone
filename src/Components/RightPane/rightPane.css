@@ -1,0 +1,185 @@
+.rightPaneBox{
+    flex: 2;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(166, 166, 166);
+}
+
+::-webkit-scrollbar-track{
+    background-color: lightgray;
+}
+
+hr{
+    margin: 15px 0;
+}
+
+.rightPaneContainer{
+    width: 90%;
+    margin: 20px auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.requestSection{
+    width: 100%;
+    margin: 0;
+}
+
+.heading{
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(40, 40, 40);
+}
+
+.heading>span{
+    margin-left: 90px;
+    color: rgb(0, 119, 255);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.requestProfile{
+    display: flex;
+}
+
+.profilePic{
+    margin-left: 0;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.requestDetails{
+    width: 100%;
+}
+
+.profileName, .requestTime{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.profileName{
+    cursor: pointer;
+}
+
+.requestTime{
+    margin-left: 90px;
+}
+
+.friendCount{
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.friendCount>div{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(100, 100, 100);
+}
+
+.friendCount>img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.buttons{
+    margin-left: 65px;
+}
+
+.btn_confirm, .btn_delete{
+    width: 90px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 8px 10px;
+    font-weight: bold;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn_delete{
+    background-color: rgb(150, 150, 150);
+}
+
+.btn_delete:hover{
+    background-color:  rgb(120, 120, 120);
+}
+
+.btn_confirm:hover{
+    background-color: #3b5998;
+}
+
+/*----------------------------*/
+.birthdayDetails{
+    display: flex;
+}
+
+.birthdayIcon{
+    width: 50px;
+    height: 50px;
+    margin-left: -10px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+.birthdayDetails>p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.specialText{
+    cursor: pointer;
+}
+
+.headingContainer{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.contact{
+    margin-right: 80px;
+    margin-bottom: 0;
+}
+
+.Icon{
+    margin-left: 20px;
+    background-color: white;
+}
+
+.contactProfile{
+    position: relative;
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.onlineStatus{
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -20px;
+    background-color: green;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.contactProfile> div>.profilePic{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+}

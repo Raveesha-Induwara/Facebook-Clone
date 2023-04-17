@@ -1,0 +1,140 @@
+.addPost, .postButtons{
+    width: 80%;
+    margin: 15px auto;
+    height: 165px;
+    -webkit-box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.1); 
+    box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+.addPostContainer{
+    padding: 20px;
+}
+
+.post{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.post>h3{
+    flex: 8;
+    font-family: sans-serif;
+    color: rgb(40, 40, 40);
+}
+
+.post .topIcons{
+    flex: 2;
+    display: flex;
+    text-align: right;
+}
+
+.Icon{
+    width: 40px;
+    padding-top: 3px;
+    margin-left: 10px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 15%;
+    cursor: pointer;
+    text-align: center;
+}
+
+.addPostTop, .addPostBottom{
+    display: flex;
+    margin-top: 10px;
+}
+
+.addPostTop>img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.addPostInput{
+    width: 90%;
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: rgb(240, 240, 240);
+    border: none;
+    border-radius: 20px;
+}
+
+.addPostInput:focus{
+    outline: none;
+}
+
+.postHr{
+    margin: 10px 0;
+}
+
+.addPostOptions{
+    display: flex;
+    margin: 0 auto;
+}
+
+.addPostOption{
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+}
+
+.addPostOption:first-child, .addPostOption:nth-child(2){
+    border-right: 1px solid black;
+}
+
+.addPostIcon, .postIcon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.addPostOptionText{
+    padding-top: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.videoIcon{
+    color: red;
+}
+.photoIcon{
+    color: green;
+}
+.eventIcon{
+    color: goldenrod;
+}
+
+.postButtons{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.postButton{
+    display: flex;
+    margin: 10px 20px;
+    padding: 0px 10px;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.postButton:first-child{
+    margin-right: 0;
+}
+
+.PostIcon{
+    padding-top: 5px;
+}
+
+.postButton > button{
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
